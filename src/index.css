@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Noto+Serif:ital@1&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'IBM Plex Mono',  'Noto Serif', monospace, serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
