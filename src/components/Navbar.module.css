@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #4c7af2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.85rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.logo {
+    width: 30%;
+    text-align: first;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.links a {
+    color: #fff;
+    letter-spacing: 0.17rem;
+}
+.links a:hover {
+    color: rgba(255, 255, 255, 0.719);
+}
