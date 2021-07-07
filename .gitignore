@@ -1,4 +1,3 @@
 node_modules
 package.json
-tailwind.json
-posycss.config.js
+package-lock.json
