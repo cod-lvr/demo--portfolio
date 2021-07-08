@@ -1,13 +1,14 @@
 import React from 'react';
 import logo from '../media/logo.png';
+import styles from './Navbar.module.css';
 
 const Navbar = props => {
     return (
-        <nav>
-            <div className="logo">
+        <nav className={styles.navbar}>
+            <div className={styles.logo}>
                 <img src={logo} />
             </div>
-            <div className="links">
+            <div className={styles.links}>
                 <a href="" >Home</a>
                 <a href="" >About</a>
                 <a href="" >Projects</a>
