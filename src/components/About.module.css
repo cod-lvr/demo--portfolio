@@ -5,11 +5,12 @@
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    padding: 3rem;
+    padding: 0.4rem;
     position: relative;
+    height: 60vh;
 }
 .content-box {
-    width: 70%;
+    width: 40%;
     text-overflow: clip;
     text-transform: capitalize;
 }
@@ -20,7 +21,7 @@
     width: 40%;
     padding: 0.75rem;
     border-radius: 14px;
-    margin-top: -7rem;
+    margin-top: -10rem;
     margin-left: 1rem;
     font-size: 20px;
     display: flex;
