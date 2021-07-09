@@ -1,0 +1,19 @@
+.projects {
+    padding: 3rem;
+    position: relative;
+}
+.title {
+    font-size: 20px;
+}
+.boxs {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-column: 2;
+   grid-gap: 45px;
+}
+.box {
+    padding: 12rem 1rem;
+    background-color: darkgrey;
+    border-radius: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
