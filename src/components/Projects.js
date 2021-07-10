@@ -11,6 +11,7 @@ const Projects = props => {
                 <div className={styles.box}></div>
                 <div className={styles.box}></div>
             </div>
+            <div className={styles.shape}></div>
         </div>
     )
 };
