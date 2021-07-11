@@ -1,14 +1,17 @@
 .navbar {
-    background-color: #4c7af2;
+    background-color: #313132;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.85rem 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: .125rem 2rem;
+    box-shadow: 0 2px 4px rgba(3, 0, 0, 0.6);
 }
 .logo {
     width: 30%;
     text-align: first;
+}
+.logo img {
+    width: 26%;
 }
 .links {
     display: flex;

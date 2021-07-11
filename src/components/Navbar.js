@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../media/logo.png';
+import logo from '../media/log.png';
 import styles from './Navbar.module.css';
 
 const Navbar = props => {
