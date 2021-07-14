@@ -5,7 +5,7 @@ import styles from './Skills.module.css';
 const Skills = props => {
     return (
         <div className={styles.skills}>
-            <h3>skills</h3>
+            <h3 className={styles.title}>skills</h3>
             <div className={styles.icons}>
                 <span className={styles.icon}><i className="fab fa-react fa-5x"></i></span>
                 <span className={styles.icon}><i className="fab fa-js-square fa-5x"></i></span>

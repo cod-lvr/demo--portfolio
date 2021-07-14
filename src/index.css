@@ -6,6 +6,7 @@
 
 html {
   font-family: 'IBM Plex Mono',  'Noto Serif', monospace, serif;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;

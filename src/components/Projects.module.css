@@ -14,10 +14,37 @@
 }
 .box {
     padding: 12rem 1rem;
-    background-color: darkgrey;
+    border: 2px dotted darkgrey;
     border-radius: 14px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
 }
-.shape {
-
+.box:hover {
+    transform: scale(2deg);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    transition: all .3s linear;
+}
+@media (max-width: 600px) {
+    .title {
+        font-size: 18px;
+    }
+    .boxs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column: 2;
+        grid-gap: 45px;
+     }
+}
+@media (min-width: 768px) {
+    .projects {
+        font-size: 19px;
+    }
+    .title {
+        margin-left: 1rem;
+        text-transform: capitalize;
+    }
+}
+@media (min-width: 992px) {
+    .title {
+        font-size: 24px;
+    }
 }

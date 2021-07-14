@@ -19,9 +19,10 @@ const Logo = styled.img`
 `;
 
 const Menu = styled.ul`
+  width: 56%;
   list-style: none;
   display: flex;
-
+  justify-content: space-around;
   li:nth-child(2) {
     margin: 0px 20px;
   }

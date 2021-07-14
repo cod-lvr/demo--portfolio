@@ -23,6 +23,79 @@
 .content {
     float: left;
     width: 40%;
-    /* margin-top: 25px; */
     padding: 1rem;
+}
+@media (max-width: 600px) {
+    .skills {
+        padding: 1rem;
+        height: 50vh;
+        margin: 3rem;
+        background-color: #fff;
+    }
+    .icons {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+    .icon {
+        font-size: 12px;
+    }
+    .content {
+        display: none;
+    }
+}
+@media (min-width: 600px) {
+    .skills {
+        padding: 2rem;
+        height: 60vh;
+        background-color: #fff;
+    }
+    .icons {
+        width: 50%;
+        float: left;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-right: 45px;
+    }
+    .content {
+        float: left;
+        width: 40%;
+        padding: 1rem;
+    }
+}
+@media (min-width: 768px ) {
+    .skills {
+        padding: 1rem;
+        height: 80vh;
+        margin: 2rem;
+        font-size: 19px;
+        background-color: #fff;
+    }
+    .title {
+        margin-left: 2rem;
+    }
+    .icons {
+        width: 50%;
+        float: left;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-right: 45px;
+    }
+    .content {
+        float: left;
+        width: 40%;
+        padding: 1rem;
+    }
+}
+@media (min-width: 992px ) {
+    .skills {
+        padding: 1rem;
+        height: 100vh;
+        margin: 2rem;
+        font-size: 24px;
+        background-color: #fff;
+    }
 }
