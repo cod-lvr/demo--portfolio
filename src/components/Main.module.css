@@ -2,7 +2,7 @@
     height: 80vh;
     display: flex;
     width: 100%;
-    padding: 4rem;
+    padding: 2rem;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -48,7 +48,6 @@
         height: 80vh;
         display: flex;
         flex-direction: column;
-        width: 100%;
         padding: 2rem;
         justify-content: space-around;
     }
@@ -59,6 +58,9 @@
         text-overflow:clip;
         text-transform: capitalize;
         font-family: 'IBM Plex Mono';
+    }
+    .contentbox p {
+        display: none;
     }
 }
 @media (min-width: 768px) {
@@ -77,6 +79,7 @@
         text-overflow:clip;
         text-transform: capitalize;
         font-family: 'IBM Plex Mono';
+        margin: 130px 0;
     }
     .contentbox p {
         display: inline-block;
@@ -97,7 +100,6 @@
         text-align:start;
         text-overflow:clip;
         text-transform: capitalize;
-        font-size: 24px;
         font-family: 'IBM Plex Mono';
     }
     .contentbox p {

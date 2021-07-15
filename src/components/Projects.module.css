@@ -43,8 +43,3 @@
         text-transform: capitalize;
     }
 }
-@media (min-width: 992px) {
-    .title {
-        font-size: 24px;
-    }
-}

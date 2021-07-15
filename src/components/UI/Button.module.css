@@ -12,7 +12,19 @@
     letter-spacing: 0.25rem;
     font-weight: bold;
 }
-
+.sec {
+    cursor: pointer;
+    background-color: transparent;
+    color: #4c7af2;
+    width: 100%;
+    border: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+}
 .button:hover {
     background-color: #4c7bf2b2;
+}
+.sec:hover {
+    text-decoration: underline;
 }

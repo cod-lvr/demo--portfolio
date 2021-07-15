@@ -11,7 +11,8 @@
     float: left;
     width: 40%;
 }
-.form input {
+.form input,
+.form textarea {
     display: block;
     width: 100%;
     padding: 1rem;
@@ -47,13 +48,18 @@
         font-size: 15px;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     .contact {
-       font-size: 19px;
+        padding: 2rem;
+        position: relative;
     }
-} 
-@media (min-width: 992px) {
-    .contact {
-        font-size: 24px;
-     }
+    .contactbox {
+        float: left;
+        width: 50%;
+        margin-right: 65px;
+    }
+    .form {
+        float: left;
+        width: 40%;
+    }
 }

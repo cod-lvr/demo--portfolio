@@ -4,6 +4,8 @@
     height: 60vh;
     background-color: #fff;
     margin: 2rem;
+    animation: left-to-right 2s ease-in forwards 4s;
+    transition: animation 1s ease-in;
 }
 .icons {
     width: 50%;
@@ -16,8 +18,8 @@
 .icon {
     color: #4c7af2;
     text-align: center;
-    box-shadow: 2px 2px 4px rgba(34, 4, 4, 0.2),
-                -2px -2px 6px rgb(255, 255, 255, 0.6);
+    box-shadow: 4px 2px 4px rgba(34, 4, 4, 0.2),
+                -4px -2px 6px rgb(255, 255, 255, 0.6);
     border-radius: 50px;
 }
 .content {
@@ -93,9 +95,22 @@
 @media (min-width: 992px ) {
     .skills {
         padding: 1rem;
-        height: 100vh;
+        height: 80vh;
         margin: 2rem;
-        font-size: 24px;
         background-color: #fff;
+    }
+}
+@keyframes left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
     }
 }

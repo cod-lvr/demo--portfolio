@@ -14,8 +14,9 @@ const Contact = (props) => {
           </p>
         </div>
         <div className={styles["form"]}>
-          <input placeholder="FIRST NAME" type="text" />
+          <input placeholder="NAME" type="text" />
           <input placeholder="E-mail" type="email" />
+          <textarea placeholder="Message" rows="4" cols="50" />
           <Button>Send</Button>
         </div>
       </div>
