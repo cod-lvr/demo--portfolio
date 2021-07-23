@@ -6,13 +6,10 @@ const About = props => {
         <div className={styles.about} id="about" >
             <div className={styles["content-box"]}>
                 <h3>About Me</h3>
-                <p>
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
-                </p>
+                <h2>it started with a dream and vision.</h2>
             </div>
             <div className={styles.box}>
-                <div className={styles.line}></div>
-                <p>It has survived not only five centuries It has survived not only  five centuries.</p>
+                <p> A self-thought passionate Front-End Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks and design patterners.</p>
             </div>
         </div>
     )
