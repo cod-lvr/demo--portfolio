@@ -25,7 +25,37 @@
 .content {
     float: left;
     width: 40%;
-    padding: 1rem;
+}
+.content .icons {
+    width: 100%;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-right: 45px;
+}
+.content .icon {
+    color: #4c7af2;
+    text-align: center;
+    box-shadow: 4px 2px 4px rgba(34, 4, 4, 0.2),
+                -4px -2px 6px rgb(255, 255, 255, 0.6);
+    border-radius: 50px;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 10%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    text-transform: capitalize;
+}
+.icon:hover .tooltiptext {
+    visibility: visible;
 }
 @media (max-width: 600px) {
     .skills {
@@ -50,21 +80,18 @@
 @media (min-width: 600px) {
     .skills {
         padding: 2rem;
-        height: 60vh;
+        height: 100vh;
         background-color: #fff;
     }
     .icons {
-        width: 50%;
-        float: left;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
         margin-right: 45px;
     }
     .content {
-        float: left;
-        width: 40%;
-        padding: 1rem;
+        width: 100%;
     }
 }
 @media (min-width: 768px ) {
@@ -72,14 +99,13 @@
         padding: 1rem;
         height: 80vh;
         margin: 2rem;
-        font-size: 19px;
         background-color: #fff;
     }
     .title {
         margin-left: 2rem;
     }
     .icons {
-        width: 50%;
+        width: 40%;
         float: left;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -88,8 +114,7 @@
     }
     .content {
         float: left;
-        width: 40%;
-        padding: 1rem;
+        width: 50%;
     }
 }
 @media (min-width: 992px ) {
@@ -98,6 +123,18 @@
         height: 80vh;
         margin: 2rem;
         background-color: #fff;
+    }
+    .icons {
+        width: 50%;
+        float: left;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-right: 45px;
+    }
+    .content {
+        float: left;
+        width: 40%;
     }
 }
 @keyframes left-to-right {
