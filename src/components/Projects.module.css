@@ -2,37 +2,38 @@
     padding: 3rem;
     position: relative;
     background-color: #fff;
+    height: fit-content;
 }
 .title {
+    width: 12%;
     font-size: 20px;
+    border-bottom: 2px solid #313132;
 }
 .boxs {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-column: 2;
-   grid-gap: 45px;
+   height: fit-content;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: 300px 300px;
+   grid-template-areas: "A B C" 
+                        "D f E";
+   grid-gap: 45px; 
 }
-.box {
-    padding: 12rem 1rem;
-    border: 2px dotted darkgrey;
-    border-radius: 14px;
-    cursor: pointer;
+.boxOne {
+    grid-area: B;
 }
-.box:hover {
-    transform: scale(2deg);
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-    transition: all .3s linear;
-}
+
+
 @media (max-width: 600px) {
     .title {
         font-size: 18px;
     }
     .boxs {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-column: 2;
-        grid-gap: 45px;
-     }
+        display: flex;
+        flex-direction: column;
+    }
+    .boxOne {
+        display: none;
+    }
 }
 @media (min-width: 768px) {
     .projects {

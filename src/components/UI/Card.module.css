@@ -1,0 +1,29 @@
+.card {
+    padding: 3rem 2rem;
+    border-radius: 14px;
+    text-align: center;
+    height: 280px;
+}
+.card:hover {
+    transform: scale(2deg);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    transition: all .4s ease-out;
+} 
+.logo {
+    padding: 1rem;
+    background-color: beige;
+}
+.arrow-btn {
+    padding: 1rem;
+    border: 0;
+    cursor: pointer;
+    color: #4c7bf2b2;
+    font-size: 40px;
+    background-color: transparent;
+}
+.arrow-btn:hover {
+   transform: scaleY(1.2);
+}
+.arrow-btn a {
+    color: #4c7bf2b2;
+}

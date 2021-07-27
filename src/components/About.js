@@ -5,7 +5,7 @@ const About = props => {
     return (
         <div className={styles.about} id="about" >
             <div className={styles["content-box"]}>
-                <h3>About Me</h3>
+                <h3 className={styles["title"]}>About Me</h3>
                 <h2>it started with a dream and vision.</h2>
             </div>
             <div className={styles.box}>

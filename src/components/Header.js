@@ -5,16 +5,21 @@ import styled from "styled-components";
 
 const Nav = styled.nav`
   background-color: #313132;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.125rem 2rem;
   box-shadow: 0 2px 4px rgba(3, 0, 0, 0.6);
+  z-index: 999;
 `;
 
 const Logo = styled.img`
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 40px;
     margin: 15px;
 `;
 
@@ -70,10 +75,11 @@ const Line = styled.span`
 
 const Overlay = styled.div`
   position: absolute;
-  height: ${(props) => (props.open ? "91vh" : 0)};
+  height: ${(props) => (props.open ? "80vh" : 0)};
   width: 100vw;
   background: #1c2022;
   transition: height 0.4s ease-in-out;
+  border-top: 3px solid #fff;
 
   @media (min-width: 769px) {
     display: none;
@@ -88,7 +94,7 @@ const OverlayMenu = styled.ul`
   transform: translate(-50%, -50%);
 
   li {
-    opacity: ${(props) => (props.open ? 1 : 0)};
+    display: ${(props) => (props.open ? "block" : "none")};
     font-size: 25px;
     margin: 50px 0px;
     transition: opacity 0.4s ease-in-out;

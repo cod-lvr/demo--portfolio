@@ -7,6 +7,11 @@
     animation: left-to-right 2s ease-in forwards 4s;
     transition: animation 1s ease-in;
 }
+.title {
+    width: 12%;
+    font-size: 20px;
+    border-bottom: 2px solid #313132;
+}
 .icons {
     width: 50%;
     float: left;
@@ -41,12 +46,14 @@
                 -4px -2px 6px rgb(255, 255, 255, 0.6);
     border-radius: 50px;
 }
-
+.content a {
+    color: #fff;
+}
 .tooltiptext {
     visibility: hidden;
     width: 10%;
-    background-color: black;
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #000;
     text-align: center;
     padding: 3px 0;
     border-radius: 6px;

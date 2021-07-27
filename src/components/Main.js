@@ -9,10 +9,10 @@ const Main = props => {
                 <h4>photoDisplay</h4>
             </div>
             <div className={styles.contentbox}>
-                <h4>Hello there</h4>
-                <h2>I am ayman gamal</h2>
-                <p> Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <Button>read more</Button>
+                <h1>Hello, I'M <span>Ayman Gamal</span></h1>
+                <h3>web developer & web designer</h3>
+                <Button><a href="#about">read more</a></Button>
+                <button className={styles["btn-sec"]}><a href="1"></a>SEE MY RESUME</button>
             </div>
         </main>
     )

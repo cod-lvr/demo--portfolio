@@ -16,7 +16,7 @@ const Skills = props => {
             </div>
             <div className={styles.content}>
                 <p>So far I have JavaScript, HTML, CSS,jQuery, Bootstrap, React.Js,Tailwind and Git/GitHub under my belt. I've started learning Node.JS,MongoDB, and Express.JS. I'm still enthusiastically grabbing onto any other programming languages,frameworks,or principles I can integrate into the coding web in my head</p>
-                <Button>cONTACT ME</Button>
+                <Button><a href="#contact">cONTACT ME</a></Button>
             </div>
         </div>
     )

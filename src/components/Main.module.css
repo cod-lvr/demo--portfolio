@@ -10,14 +10,31 @@
     width: 100%;
     display: inline-block;
     text-align: left;
-    margin-top: 2rem;
+    margin-top: 3rem;
     text-overflow:clip;
     text-transform: capitalize;
     font-family: 'IBM Plex Mono';
 }
+.contentbox a {
+    color: #fff;
+}
+.btn-sec {
+    cursor: pointer;
+    background-color: transparent;
+    color: #4c7af2;
+    width: 50%;
+    border: 0;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 0.24rem;
+}
+.btn-sec:hover {
+    text-decoration: none;
+}
 .photog {
    width: 100%;
-   margin-top: 2rem;
+   margin-top: 3rem;
    padding: 3rem;
    height: 100%;
    text-align: center;
@@ -39,33 +56,13 @@
         text-transform: capitalize;
         font-family: 'IBM Plex Mono';
     }
-    .contentbox p {
-        display: none;
-    }
-}
-@media (min-width: 600px) {
-    .main {
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        padding: 2rem;
-        justify-content: space-around;
-    }
-    .contentbox {
+    .btn-sec {
         width: 100%;
-        display: inline-block;
-        text-align: center;
-        text-overflow:clip;
-        text-transform: capitalize;
-        font-family: 'IBM Plex Mono';
-    }
-    .contentbox p {
-        display: none;
     }
 }
 @media (min-width: 768px) {
     .main {
-        height: 80vh;
+        height: 90vh;
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -79,10 +76,10 @@
         text-overflow:clip;
         text-transform: capitalize;
         font-family: 'IBM Plex Mono';
-        margin: 130px 0;
+        margin: 200px 0;
     }
-    .contentbox p {
-        display: inline-block;
+    .btn-sec {
+        width: 40%;
     }
 }
 @media (min-width: 992px) {
@@ -101,8 +98,5 @@
         text-overflow:clip;
         text-transform: capitalize;
         font-family: 'IBM Plex Mono';
-    }
-    .contentbox p {
-        display: inline-block;
     }
 }
