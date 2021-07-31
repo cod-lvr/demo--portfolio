@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Main.module.css';
 import Button from './UI/Button';
+import img from '../media/me.jpg';
 
 const Main = props => {
     return (
         <main className={styles.main} id="home" >
              <div className={styles.photog}>
-                <h4>photoDisplay</h4>
+                <img src={img} alt="profile Photo" />
             </div>
             <div className={styles.contentbox}>
                 <h1>Hello, I'M <span>Ayman Gamal</span></h1>

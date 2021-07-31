@@ -12,26 +12,29 @@ const Projects = (props) => {
         logo={<i class="fab fa-react"></i>}
         title="versaye store"
         content="online store cloned from Verache" 
-        href="https://www.google.com/"/>
+        href="https://mystifying-villani-fd6ed3.netlify.app/"/>
         <div className={styles.boxOne}>
           <img src={v1} alt="photo" />
         </div>
         <Card
         logo={<i class="fab fa-react"></i>}
-        title="versaye store"
-        content="online store cloned from Verache" />
+        title="wildLife website"
+        content="website template for wildLife design" 
+        href="https://priceless-edison-080f50.netlify.app/"/>
         <Card 
         logo={<i class="fab fa-react"></i>}
-        title="versaye store"
-        content="online store cloned from Verache" />
+        title="photographer website"
+        content="website template for photographer design" 
+        href="https://jovial-mclean-1b2727.netlify.app/"/>
+        <Card logo={<i class="fab fa-react"></i>}
+        title="food app"
+        content="online store cloned from Verache"
+        href=""/>
         <Card logo={<i class="fab fa-react"></i>}
         title="versaye store"
-        content="online store cloned from Verache"/>
-        <Card logo={<i class="fab fa-react"></i>}
-        title="versaye store"
-        content="online store cloned from Verache"/>
+        content="online store cloned from Verache"
+        href="" />
       </div>
-      <div className={styles.shape}></div>
     </div>
   );
 };
