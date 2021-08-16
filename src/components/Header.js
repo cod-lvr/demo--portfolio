@@ -5,16 +5,12 @@ import styled from "styled-components";
 
 const Nav = styled.nav`
   background-color: #313132;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  position: reletive;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.125rem 2rem;
   box-shadow: 0 2px 4px rgba(3, 0, 0, 0.6);
-  z-index: 999;
 `;
 
 const Logo = styled.img`
