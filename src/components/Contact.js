@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import styles from "./Contact.module.css";
 
 const Contact = (props) => {
@@ -68,7 +69,7 @@ const Contact = (props) => {
   return (
     <React.Fragment>
       <div className={styles["contact"]} id="contact">
-        <h3 className ={styles["title"]}>Reach Out to me</h3>
+        <h3 className={styles["title"]}>Reach Out to me</h3>
         <div className={styles["contactbox"]}>
           <p>
             DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
@@ -102,7 +103,13 @@ const Contact = (props) => {
             </a>
           </div>
         </div>
-        <form className={styles["form"]} onSubmit={submitHandler}>
+        <motion.form
+          className={styles["form"]}
+          onSubmit={submitHandler}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 3, delay: 5 }}
+        >
           <input
             placeholder="Enter your name"
             type="text"
@@ -123,8 +130,10 @@ const Contact = (props) => {
             value={enteredMssg}
           />
           {formSubmitted && <p>Form submitted</p>}
-          <button type="submit" className={styles.btn}>Send</button>
-        </form>
+          <button type="submit" className={styles.btn}>
+            Send
+          </button>
+        </motion.form>
       </div>
       <footer className={styles.footer}>
         <p>&copy; all rights reserved 2021</p>
